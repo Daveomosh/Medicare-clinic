@@ -1,0 +1,167 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap'); */
+*{
+  font-family: 'Josefin Sans', sans-serif;
+}
+p{
+  line-height: 25px;
+  font-size: 20px;
+}
+h3{
+  font-size: 40px;
+}
+nav ul {
+  list-style-type: none;
+}
+nav ul li {
+  float:right;
+  padding: 30px;
+}
+.logo{
+  float: left;
+}
+.clearfix{
+  clear: both;
+}
+.hero {
+  height: 80vh;
+  background-image: url("../images/ezgif-2-b583d0ce77.png");
+  background-repeat: no-repeat;
+  position: center center;
+  background-size: cover;
+}
+.hero-content {
+  float: right;
+  width: 30%;
+  padding:200px 200px 0 0;
+  font-weight: 200px;
+}
+.hero-content h1 {
+  color: #496bf2;
+  font-size: 40px;
+}
+.about {
+  background-color: #496bf2;
+}
+.book {
+  
+  background-color: #2dd6c1;
+}
+.btn{
+  padding:10px 30px;
+  color:white;
+  border:none;
+  font-size: 20px;
+  border-radius: 5px;
+}
+.buttons button:last-child{
+  margin-left: 10px;
+}
+.hero-content p{
+  padding: 20px 0;
+}
+.section{
+  margin: 100px;
+  border: radius 20px;
+  ;
+}
+.c-image{
+  text-align:center ;
+  float: left;
+  padding: 20px 0;
+  box-shadow: 0 0 5px lightgray;
+  width: 30%;
+}
+.c-image h3{
+  color: #496BF2;
+  font-size: 30px;
+}
+.c-image:nth-child(2){
+  margin:0 30px;
+}
+.about-us{
+  width:80%;
+  margin:60px auto;
+}
+.d-content{
+  float: right;
+  width: 50%;
+}
+.d-image{
+  width: 48%;
+  float: left;
+}
+
+.d-image img{
+  width:100%;
+}
+.read{
+  background-color: #496BF2;
+  margin-bottom: 10px;
+}
+.w{
+  color: #496BF2;
+}
+.testimonials{
+  text-align: center;
+}
+
+.testimonial{
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: #2dd6c1;
+  margin:0 auto;
+  text-align: center;
+  float: left;
+}
+.testimonial:first-child{
+  background-color: #496BF2;
+}
+.testimonial:nth-child(2){
+  background-color: #2dd6c1;
+  margin: 0 20px;
+}
+
+.testimonial-circle{
+ background-color: aqua;
+ width: fit-content;
+ margin:0 auto;
+}
+.testimonials h1{
+  padding: 20px 10px;
+}
+.testimonials p{
+  width: 30%;
+  margin: 20px auto;
+  text-align: left;
+}
+.tes{
+  padding: 20px 10px;
+  color: #496BF2;
+}
+.us{
+  color: #2dd6c1;
+}
+.we{color: #2dd6c1;
+}
+.contact-details{ 
+  height: 80vh;
+  background-image: url(../images/ezgif-2-81a50240fb.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.submit{
+  background-color: #496BF2;
+  float: left;
+}
+.form input, .form textarea{
+  padding: 30px 40px;
+  margin: 20px;
+  width: 45%;
+  display: block;
+}
+.contact h3{
+  text-align: center;
+}
