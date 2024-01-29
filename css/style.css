@@ -155,8 +155,9 @@ nav ul li {
 .submit{
   background-color: #496BF2;
   float: left;
+  margin-left:40px ;
 }
-.form input, .form textarea{
+.form input ,textarea{
   padding: 30px 40px;
   margin: 20px;
   width: 45%;
@@ -165,3 +166,15 @@ nav ul li {
 .contact h3{
   text-align: center;
 }
+
+
+/* Footer styles */
+.footer-element{
+  float: left;
+  width: 25%;
+}
+
+.footer-contact p{
+display: inline-block;
+}
+
