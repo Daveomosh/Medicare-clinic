@@ -19,6 +19,14 @@ nav ul li {
 .logo {
   float: left;
 }
+.doc{
+  list-style-type: none;
+  display: inline-flex;
+  float: right;
+}
+.home{
+  color: #496bf2;
+}
 .clearfix {
   clear: both;
 }
@@ -60,7 +68,7 @@ nav ul li {
 }
 .section {
   margin: 100px;
-  border: radius 20px;
+  border: 20px;
 }
 .c-image {
   text-align: center;
@@ -143,17 +151,22 @@ nav ul li {
 .we {
   color: #2dd6c1;
 }
+.ab{
+  color: #496bf2;
+}
 .contact{
-  height: 80vh;
   background-image:url(../images/ezgif-2-81a50240fb.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
 
+textarea{
+  resize: none;
+}
+
 .submit {
   background-color: #496bf2;
-  float: left;
   margin-left: 40px;
 }
 
@@ -179,3 +192,9 @@ resize: none;
 .footer-contact p {
   display: inline-block;
 }
+.footer-element li{
+  list-style-type: none;
+  font-size: 20px;
+  line-height: 20px;
+}
+  
