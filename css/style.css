@@ -157,8 +157,9 @@ nav ul li {
   margin-left: 40px;
 }
 
-.contact h3 {
+.p{
   text-align: center;
+  padding: 20px 30px;
 }
 .form-input input,textarea{
   padding: 20px 30px;
@@ -167,7 +168,7 @@ nav ul li {
   width: 45%;
 }
 .textarea{ 
-  resize: none;
+resize: none;
 }
 /* Footer styles */
 .footer-element {
