@@ -195,6 +195,6 @@ resize: none;
 .footer-element li{
   list-style-type: none;
   font-size: 25px;
-  line-height: 25px;
+  line-height: 2;
 }
-  
+
