@@ -156,16 +156,19 @@ nav ul li {
   float: left;
   margin-left: 40px;
 }
-.form-input{
-  padding: 30px 50px;
-  margin: 30px;
-  width: 45%;
-  display: block;
-}
+
 .contact h3 {
   text-align: center;
 }
-
+.form-input input,textarea{
+  padding: 20px 30px;
+  margin: 30px 40px;
+  display: block;
+  width: 45%;
+}
+.textarea{ 
+  resize: none;
+}
 /* Footer styles */
 .footer-element {
   float: left;
